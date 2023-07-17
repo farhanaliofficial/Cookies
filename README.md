@@ -18,6 +18,9 @@ Install Python
 pkg install python
 ```
 
+# Screenshot
+![Screenshot](https://github.com/farhanaliofficial/Cookies/raw/main/Screenshot_20230717-140826.png)
+
 # Open source
 This tools is open source so you are free to use and modify this tool but you have to give credit.
 # Version
